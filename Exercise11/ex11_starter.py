@@ -6,7 +6,10 @@ print(blength)
 rbelgium = Belgium.replace(',', ':')
 print(rbelgium)
 
-population = (int(Belgium[8:16])+int(Belgium[26:32]))
+fields = Belgium.split(",")
+population = (int(fields[1])+int(fields[3]))
+
+#wrong population = (int(Belgium[8:16])+int(Belgium[26:32]))
 print(population)
 
 
