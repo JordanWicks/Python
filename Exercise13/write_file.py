@@ -7,8 +7,8 @@ pelican_file = open('pelican.txt', mode='a')
 output = open('pelican.txt', 'w')
 
         #input variable .write to add to append to file
-num = output.write("A wonderful bird is the pelican\n"
-                   "His bill holds more than his belican\n")
+output.write("A wonderful bird is the pelican\n"
+             "His bill holds more than his belican\n")
 
         #create variable and add list, then add variable to output.writelines to add to file
         #using \n to each value so that its on a new line
